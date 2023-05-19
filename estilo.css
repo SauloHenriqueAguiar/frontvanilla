@@ -63,3 +63,15 @@ body {
     margin: 0px;
 }
 
+.link {
+    color:blue;
+    font-size: medium;
+}
+
+.link.hover {
+    color: red;
+}
+
+.link:visited {
+    color: rgb(0, 0, 0);
+}
