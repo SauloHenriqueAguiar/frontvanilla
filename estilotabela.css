@@ -1,0 +1,21 @@
+#tabela2 {
+    width: 600px;
+    border: 1px solid rgb(0, 0, 0);
+
+}
+#tabela2 thead {
+    background-color: rgb(49, 221, 101);
+  }
+
+#tabela2 tbody {
+    background-color: rgb(235, 158, 49);
+  }
+
+th, td {
+    border: 1px solid rgb(0, 0, 0);
+    text-align: left;
+  }
+
+  tr:hover {
+    background-color: rgb(244, 255, 247);
+  }
