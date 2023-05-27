@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Formulário</title>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="form2.css">
+</head>
+<body>
+  <form method="POST" action="blabla.js" enctype="multipart/form-data">
+  <input type="hidden" name="country" value="BR" />
+  <input type="hidden" name="id" value="2" />
+
+   <fieldset>
+    <legend >Dados Pessoais</legend>
+       <label>
+        Nome: <br/>
+        <input type="text" name="name" required minlength="2"/> 
+       </label><br/>
+
+       <label>
+        Sobrenome: <br/>
+        <input type="text" name="lastname" required maxlength="8"/> 
+       </label><br/>
+
+       <label>
+        Email: <br/>
+        <input type="text" name="email" pattern="(^[a-zA-z0-9_.+-]+@[a-zA-z0-9-]+\.[a-zA-z0-9-.]+$)" title="Endereço de Email: "/> 
+       </label><br/>
+
+       <label>
+        Idade: <br/>
+        <input type="number" name="age" step="3" min="18"/> 
+       </label><br/>
+
+       <label>
+        Data de Nascimento: <br/>
+        <input type="date" name="birdthdate" /> 
+       </label><br/>
+
+       <label>
+        Foto: <br/>
+        <input type="file" name="fotos" accept="image/*"/> 
+       </label><br/>
+
+  </fieldset>
+   
+  <fieldset>
+   <legend >Dados Profissionais</legend>
+       <label>
+        Nome da Empresa: <br/>
+        <input type="text" name="companyname" /> 
+       </label><br/>
+
+       <label>
+        Cargo na Empresa: <br/>
+        <input type="text" name="jobcompanny" /> 
+       </label><br/>
+       <br/>
+   </fieldset>
+
+   <input type="submit" value="Cadastrar" />
+  </form>
+</body>
+</html>
