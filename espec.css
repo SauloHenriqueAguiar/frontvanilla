@@ -1,0 +1,21 @@
+body {
+ margin: 0;
+}
+
+.container {
+ color: brown;
+}
+
+div {
+    color: blue;
+    height: 100vh;
+}
+.box {
+    font-size: 20px;
+}
+
+box-interno {
+    width: 10em;
+    height: 10em;
+    background-color: gray;
+}
