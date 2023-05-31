@@ -1,0 +1,11 @@
+@media (aspect-ratio: 1/1) {
+  body{
+    background-color: #e04646;
+  }
+}
+
+@media (aspect-ratio: 16/9) {
+  body{
+    background-color: #46e0e0;
+  }
+}
