@@ -18,7 +18,8 @@ h1 {
 
 .container {
   background-color: var(--bg-second);
-  color: var(--font-color)
+  color: var(--font-color);
+  width: calc(100% - 20px);
 }
 
 @media (max-width: 450px) {
