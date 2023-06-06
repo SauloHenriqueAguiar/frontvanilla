@@ -1,0 +1,26 @@
+@keyframes exemploanimacao {
+ 0% {background-color: #c00d0d;top: 0px;left: 0px;
+ }
+ 25% {background-color: #0dc0c0;top: 0px; left: 200px;
+ }
+ 50% {background-color: #0d0dc0; top: 200px; left: 200px;
+ }
+ 75% {background-color: #c00dc0; top: 200px; left: 0px;
+ }
+ 100% {background-color: #c00d0d; top: 0px; left: 0px;
+ }
+}
+
+body {
+  margin: 0;
+}
+
+.exemplo {
+ width: 150px;
+ height: 150px;
+ background-color: #c00d0d;
+ position: absolute;
+ animation-name: exemploanimacao;
+ animation-duration: 4s;
+ animation-iteration-count: infinite;
+ }
