@@ -10,4 +10,9 @@ body {
  box-shadow: 5px 5px 5px #000000a9;
  margin: auto;
  margin-top: 100px;
+ transition: all 1s linear; 
+}
+
+.exemplo:hover {
+ box-shadow: 30px 30px 30px #000000a9;
 }
