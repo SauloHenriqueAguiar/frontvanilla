@@ -1,0 +1,6 @@
+$('p1').css('background-color','#f9d70b')
+$("p1").css("color","black")
+$("h4").addClass("text-center")
+$("p").css('background-color',"#f0e046")
+$("p").css('font-style',"oblique")
+$("#timeline").css("background-color","#fcfcfc")
