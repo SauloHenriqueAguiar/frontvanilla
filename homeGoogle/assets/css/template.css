@@ -1,0 +1,139 @@
+body {
+ margin: 0;
+}
+
+.container {
+ height: 30px;
+ margin: 20px;
+ line-height: 30px;
+}
+
+#signin a {
+ color: white;
+ font-family: sans-serif;
+ font-weight: bold;
+ font-size:14px;
+ background-color:#4285F4;
+ border-radius: 3px;
+ text-decoration:none;
+ position: inline-block;
+ float: right;
+ padding:2px 10px;
+}
+
+#icon img {
+ position: inline-block;
+ float: right;
+ width: 25px;
+ margin-right: 15px;
+ margin-top:3px;
+}
+
+.container nav li {
+ display: inline-block;
+ float: right;
+ margin-right: 15px;
+}
+
+.container nav li a {
+ color: #000000;
+ font-size: 13px;
+ font-family: sans-serif;
+ text-decoration: none;
+}
+
+.container nav li a:hover{
+ color: #000000;
+ font-size: 13px;
+ font-family: sans-serif;
+ text-decoration: underline;
+}
+
+#glogo {
+ margin-top:250px;
+ text-align: center;
+}
+
+#glogo img {
+ position: inline-block;
+ width: 200px;
+ margin: 0px auto;
+}
+
+#searchbar{
+/*   display: inline-block; */
+}
+
+#searchbar form{
+ text-align: center;
+}
+
+#searchbar input[type=text] {
+ width: 500px;
+ padding: 12px 20px;
+ margin: 8px 0;
+ display: inline-block;
+ border: 1px solid #ccc;
+ border-radius: 30px;
+ box-sizing: border-box;
+}
+
+#searchbar input[type=text]:hover {
+ width: 500px;
+ padding: 12px 20px;
+ margin: 8px 0;
+ display: inline-block;
+ border: 1px solid #FFFFFF;
+ border-radius: 30px;
+ box-sizing: border-box;
+ box-shadow: 0px 3px 5px #CCCCCC;
+}
+
+#buttons {
+ text-align: center;
+}
+
+#buttons p {
+ display: inline-block;
+ color: #5F6368;
+ background-color: #F2F2F2;
+ font-family: sans-serif;
+ font-size: 14px;
+ border-radius: 5px;
+ padding: 10px 20px;
+ margin: 11px 4px;
+}
+
+#buttons p:hover {
+ display: inline-block;
+ color: #000000;
+ background-color: #F2F2F2;
+ border:1px solid #AAAAAA;
+ font-family: sans-serif;
+ font-size: 14px;
+ border-radius: 5px;
+ padding: 10px 20px;
+ margin: 11px 4px;
+ box-shadow: 0px 3px 5px #CCCCCC;
+}
+
+#service {
+ text-align: center;
+}
+
+#service li {
+ display: inline-block;
+ font-family: sans-serif;
+ font-size:14px;
+ margin: 0px 5px;
+}
+
+#service li a {
+ color: #1A0DAB;
+ text-decoration: none;
+}
+
+#service li a:hover {
+ color: blue;
+ text-decoration: underline;
+}
