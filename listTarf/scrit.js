@@ -8,9 +8,10 @@ function handleKeyUp(e) {
    const newLi = document.createElement('li');
    newLi.innerHTML = input.value;
    lista.appendChild(newLi);
-   
+
  }
 }
 
 // Eventos
 input.addEventListener('keyup', handleKeyUp);
+
