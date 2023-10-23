@@ -16,8 +16,9 @@ function calculateTip() {
  const tipAmountInput = document.querySelector('#tipAmount');
  const totalAmountInput = document.querySelector('#totalAmount');
 
- tipAmountInput.value = `R$ ${tipAmount}`;
- totalAmountInput.value =  `R$ ${totalAmount}`;
+ tipAmountInput.value = tipAmount.toLocaleString('pt-br', {style: 'currency', currency: 'BRL'});
+
+ totalAmountInput.value = totalAmount.toLocaleString('pt-br', {style: 'currency', currency: 'BRL'});
 
 }
 
