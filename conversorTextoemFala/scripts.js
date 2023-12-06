@@ -8,52 +8,52 @@ const closeBtn = document.getElementById('close');
 
 const data = [
  {
-   image: './img/drink.jpg',
-   text: "Estou com sede"
+  image: './img/drink.jpg',
+  text: "Estou com sede"
  },
  {
-   image: './img/food.jpg',
-   text: "Estou com fome"
+  image: './img/food.jpg',
+  text: "Estou com fome"
  },
  {
-   image: './img/tired.jpg',
-   text: "Estou cansado"
+  image: './img/tired.jpg',
+  text: "Estou cansado"
  },
  {
-   image: './img/hurt.jpg',
-   text: "Estou ferido"
+  image: './img/hurt.jpg',
+  text: "Estou ferido"
  },
  {
-   image: './img/happy.jpg',
-   text: "Estou Feliz"
+  image: './img/happy.jpg',
+  text: "Estou Feliz"
  },
  {
-   image: './img/angry.jpg',
-   text: "Estou com raiva"
+  image: './img/angry.jpg',
+  text: "Estou com raiva"
  },
  {
-   image: './img/sad.jpg',
-   text: "Estou triste"
+  image: './img/sad.jpg',
+  text: "Estou triste"
  },
  {
-   image: './img/scared.jpg',
-   text: "Eu estou assustado"
+  image: './img/scared.jpg',
+  text: "Eu estou assustado"
  },
  {
-   image: './img/outside.jpg',
-   text: 'Eu quero sair'
+  image: './img/outside.jpg',
+  text: 'Eu quero sair'
  },
  {
-   image: './img/home.jpg',
-   text: 'Eu quero ir para casa'
+  image: './img/home.jpg',
+  text: 'Eu quero ir para casa'
  },
  {
-   image: './img/school.jpg',
-   text: 'Eu quero ir a escola'
+  image: './img/school.jpg',
+  text: 'Eu quero ir a escola'
  },
  {
-   image: './img/grandma.jpg',
-   text: 'Eu quero ir para as vovós'
+  image: './img/grandma.jpg',
+  text: 'Eu quero ir para as vovós'
  }
 ];
 
@@ -73,12 +73,12 @@ function createBox(item) {
  `;
 
  box.addEventListener('click', () => {
-   setTextMessage(text);
-   speakText();
+  setTextMessage(text);
+  speakText();
 
-   // Adiciona efeito ativo
-   box.classList.add('active');
-   setTimeout(() => box.classList.remove('active'), 800);
+  // Adiciona efeito ativo
+  box.classList.add('active');
+  setTimeout(() => box.classList.remove('active'), 800);
  });
 
  main.appendChild(box);
@@ -96,12 +96,13 @@ function getVoices() {
  voices = speechSynthesis.getVoices();
 
  voices.forEach(voice => {
-   const option = document.createElement('option');
 
-   option.value = voice.name;
-   option.innerText = `${voice.name} ${voice.lang}`;
+  const option = document.createElement('option');
 
-   voicesSelect.appendChild(option);
+  option.value = voice.name;
+  option.innerText = `${voice.name} ${voice.lang}`;
+
+  voicesSelect.appendChild(option);
  });
 }
 
