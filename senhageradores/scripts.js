@@ -1,3 +1,5 @@
+
+// seleção de elementos do DOM
 const resultEl = document.getElementById('result')
 const lengthEl = document.getElementById('length')
 const uppercaseEl = document.getElementById('uppercase')
@@ -7,7 +9,7 @@ const symbolsEl = document.getElementById('symbols')
 const generateEl = document.getElementById('generate')
 const clipboardEl = document.getElementById('clipboard')
 
-
+// objeto com funções de gerar caracteres
 const randomFunc = {
     lower: getRandomLower,
     upper: getRandomUpper,
@@ -36,6 +38,7 @@ generateEl.addEventListener('click', () => {
     resultEl.innerText = generatePassword(hasLower, hasUpper, hasNumber, hasSymbol, length)
 })
 
+// função geradora de senha
 function generatePassword(lower, upper, number, symbol, length) {
     let generatedPassword = ''
     const typesCount = lower + upper + number + symbol
