@@ -7,6 +7,7 @@ const symbolsEl = document.getElementById('symbols')
 const generateEl = document.getElementById('generate')
 const clipboardEl = document.getElementById('clipboard')
 
+
 const randomFunc = {
     lower: getRandomLower,
     upper: getRandomUpper,
@@ -14,6 +15,7 @@ const randomFunc = {
     symbol: getRandomSymbol
 }
 
+//Evento de Clique copiar senha 
 clipboardEl.addEventListener('click', () => {
     const password = resultEl.innerText;
   if (!password) {
@@ -23,6 +25,7 @@ clipboardEl.addEventListener('click', () => {
     alert('Senha Copiada para Area de Transferencia!')
 })
 
+// Evento de Clique Gerar Senha
 generateEl.addEventListener('click', () => {
     const length = +lengthEl.value
     const hasLower = lowercaseEl.checked
