@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Inter:wght@400;500;600;700&display=swap');
+
+* {
+ font-family: Arial, Helvetica, sans-serif;
+ margin: 0;
+ padding: 0;
+ list-style: none;
+ box-sizing: border-box;
+}
+
+body {
+ font-family: 'Inter', sans-serif;
+ font-size: 18px;
+ background-color: #141414;
+ color: #fff;
+}
+
+.container {
+ width: 100%;
+ margin: auto;
+ max-width: 1200px;
+ padding: 0 20px;
+}
+
+.logo a {
+ font-family: 'Calistoga';
+ font-size: 36px;
+ color: #fff;
+ text-decoration: none;
+}
+
+.logo a span {
+ color: rgb(255, 166, 0);
+}
+
+
