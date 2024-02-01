@@ -25,7 +25,7 @@
         <nav>
           <ul>
             <li>
-              <a class="nav-link" href="/">Movies</a>
+              <a class="nav-link" href="/">Filmes</a>
             </li>
             <li>
               <a class="nav-link" href="/shows.html">TV Shows</a>
@@ -35,15 +35,15 @@
       </div>
     </header>
 
-    <!-- Now Playing Section -->
+    <!-- secao assistindo agora -->
     <section class="now-playing">
-      <h2>Now Playing</h2>
+      <h2>Assistindo Agora</h2>
       <div class="swiper">
         <div class="swiper-wrapper"></div>
       </div>
     </section>
 
-    <!-- Search Movies -->
+    <!-- pesquisa Movies -->
     <section class="search">
       <div class="container">
         <div id="alert"></div>
@@ -51,16 +51,16 @@
           <!-- movies and shows radio box -->
           <div class="search-radio">
             <input type="radio" id="movie" name="type" value="movie" checked />
-            <label for="movies">Movies</label>
+            <label for="movies">Filmes</label>
             <input type="radio" id="tv" name="type" value="tv" />
-            <label for="shows">TV Shows</label>
+            <label for="shows">Shows</label>
           </div>
           <div class="search-flex">
             <input
               type="text"
               name="search-term"
               id="search-term"
-              placeholder="Enter search term"
+              placeholder="Pesquise por filmes ou shows..."
             />
             <button class="btn" type="submit">
               <i class="fas fa-search"></i>
@@ -70,9 +70,9 @@
       </div>
     </section>
 
-    <!-- Popular Movies -->
+    <!-- Popular filmes -->
     <section class="container">
-      <h2>Popular Movies</h2>
+      <h2>Filmes Populares</h2>
       <div id="popular-movies" class="grid"></div>
     </section>
 
